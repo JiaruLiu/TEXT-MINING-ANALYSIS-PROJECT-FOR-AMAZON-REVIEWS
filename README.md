@@ -48,11 +48,11 @@ With sentiment analysis, we could find what customers like about our service, wh
 (3) Recommendation for advertisers on Amazon
 
 ## 6 Possible shortcomings of your work and ways to overcome
-(1) Precision/Accuracy
+(1) Precision/Accuracy  
 For topic modeling, small number of observations limits the accuracy. To get more precise result we may use Spark to deal with the whole review dataset.  
 For Vader lexicon, the method is inflexible in some level of extent. So the accuracy is not really true. If we want to more convincing results, we could use different kinds of model to train the dataset and use test model to acquire accuracy rate.
 
 
-(2) Model limitation
+(2) Model limitation  
 LDA may not be the best for short text topic modeling. PCA or bi-term topic model may works better for this data set.  
 The definition of some words in the NRC emotion lexicon may be outdated. One possible option is to update how people are feeling about specific words.
