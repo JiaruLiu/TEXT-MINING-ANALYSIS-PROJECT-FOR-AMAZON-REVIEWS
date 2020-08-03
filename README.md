@@ -1,0 +1,2 @@
+# TEXT-MINING-ANALYSIS-PROJECT-FOR-AMAZON-REVIEWS
+Text Mining in-class project
